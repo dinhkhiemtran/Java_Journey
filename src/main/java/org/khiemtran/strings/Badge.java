@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.strings;
 
 public class Badge {
   public String print(Integer id, String name, String department) {
