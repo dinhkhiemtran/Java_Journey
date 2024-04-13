@@ -1,7 +1,8 @@
-package org.khiemtran.basics;
+package org.khiemtran.arraylist;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.khiemtran.arraylist.BirdWatcher;
 
 class BirdWatcherTest {
   @Test
