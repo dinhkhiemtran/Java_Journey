@@ -1,4 +1,4 @@
-package org.khiemtran.basics.fighter;
+package org.khiemtran.objects.wizards_and_warriors;
 
 public class Fighter {
   boolean isVulnerable() {
