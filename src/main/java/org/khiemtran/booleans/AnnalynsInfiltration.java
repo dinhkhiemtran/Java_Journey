@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.booleans;
 
 public class AnnalynsInfiltration {
   public static boolean canFastAttack(boolean knightIsAwake) {
