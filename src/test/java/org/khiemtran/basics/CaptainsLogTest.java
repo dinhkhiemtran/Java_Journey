@@ -4,20 +4,17 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Random;
+import java.util.stream.Stream;
 
 class CaptainsLogTest {
   private static final char[] PLANET_CLASSES = new char[]{'D', 'H', 'J', 'K', 'L', 'M', 'N', 'R', 'T', 'Y'};
 
   @Test
   public void testPlanets() {
-    boolean isCorrect = false;
-    for (int i = 0; i < PLANET_CLASSES.length; i++) {
-      if (new CaptainsLog(new Random()).randomPlanetClass() == PLANET_CLASSES[i]) {
-        System.out.println(PLANET_CLASSES[i]);
-        isCorrect = true;
-        break;
-      }
-    }
+    char valueOfRandomPlanetClass = new CaptainsLog(new Random()).randomPlanetClass();
+    boolean isCorrect = Stream.iterate(0, i -> i + 1)
+        .limit(PLANET_CLASSES.length)
+        .anyMatch(i -> PLANET_CLASSES[i] == valueOfRandomPlanetClass);
     Assertions.assertTrue(isCorrect);
   }
 }
