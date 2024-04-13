@@ -1,4 +1,4 @@
-package org.khiemtran.basics.wizards_and_warriors_2;
+package org.khiemtran.objects.wizards_and_warriors_2;
 
 public class Character {
   private String characterClass;

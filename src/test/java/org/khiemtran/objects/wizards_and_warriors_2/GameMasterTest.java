@@ -1,9 +1,13 @@
-package org.khiemtran.basics.wizards_and_warriors_2;
+package org.khiemtran.objects.wizards_and_warriors_2;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.khiemtran.objects.wizards_and_warriors_2.Character;
+import org.khiemtran.objects.wizards_and_warriors_2.Destination;
+import org.khiemtran.objects.wizards_and_warriors_2.GameMaster;
+import org.khiemtran.objects.wizards_and_warriors_2.TravelMethod;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
