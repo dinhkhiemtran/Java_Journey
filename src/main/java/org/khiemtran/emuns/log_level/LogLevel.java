@@ -1,4 +1,4 @@
-package org.khiemtran.basics.log_level;
+package org.khiemtran.emuns.log_level;
 
 public enum LogLevel {
   TRACE(1),

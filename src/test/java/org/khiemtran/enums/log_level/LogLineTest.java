@@ -1,9 +1,11 @@
-package org.khiemtran.basics.log_level;
+package org.khiemtran.enums.log_level;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.khiemtran.emuns.log_level.LogLevel;
+import org.khiemtran.emuns.log_level.LogLine;
 
 class LogLineTest {
   @Test

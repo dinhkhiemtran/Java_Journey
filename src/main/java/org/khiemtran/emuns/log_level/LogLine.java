@@ -1,4 +1,4 @@
-package org.khiemtran.basics.log_level;
+package org.khiemtran.emuns.log_level;
 
 import java.util.HashMap;
 import java.util.Map;
