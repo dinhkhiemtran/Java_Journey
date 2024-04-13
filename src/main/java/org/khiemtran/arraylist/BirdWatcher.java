@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.arraylist;
 
 import java.util.Arrays;
 
