@@ -1,4 +1,4 @@
-package org.khiemtran.basics.test_track;
+package org.khiemtran.objects.test_track;
 
 public class ExperimentalRemoteControlCar implements RemoteControlCar {
   private final static int DRIVES_UNITS = 20;

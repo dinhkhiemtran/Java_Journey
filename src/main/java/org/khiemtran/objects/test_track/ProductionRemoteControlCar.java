@@ -1,4 +1,4 @@
-package org.khiemtran.basics.test_track;
+package org.khiemtran.objects.test_track;
 
 public class ProductionRemoteControlCar implements RemoteControlCar, Comparable<ProductionRemoteControlCar> {
   private final static int DRIVES_UNITS = 10;
