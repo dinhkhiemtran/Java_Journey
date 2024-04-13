@@ -1,9 +1,10 @@
-package org.khiemtran.basics;
+package org.khiemtran.numbers;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.khiemtran.numbers.CalculatorConundrum;
 
 class CalculatorConundrumTest {
   @Test
