@@ -1,4 +1,4 @@
-package org.khiemtran.basics.wizards_and_warriors_2;
+package org.khiemtran.objects.wizards_and_warriors_2;
 
 public class GameMaster {
   private static final String CHARACTER_DESCRIBE = "You're a level %d %s with %s hit points.";
