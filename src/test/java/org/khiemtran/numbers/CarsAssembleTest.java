@@ -1,9 +1,10 @@
-package org.khiemtran.basics;
+package org.khiemtran.numbers;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.khiemtran.numbers.CarsAssemble;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.within;
