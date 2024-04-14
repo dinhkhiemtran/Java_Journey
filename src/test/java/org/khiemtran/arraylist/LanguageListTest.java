@@ -1,6 +1,7 @@
-package org.khiemtran.basics;
+package org.khiemtran.arraylist;
 
 import org.junit.jupiter.api.*;
+import org.khiemtran.arraylist.LanguageList;
 
 class LanguageListTest {
   private LanguageList languageList;
