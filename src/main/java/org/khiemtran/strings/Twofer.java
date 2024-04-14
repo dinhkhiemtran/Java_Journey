@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.strings;
 
 public class Twofer {
   public String twofer(String name) {

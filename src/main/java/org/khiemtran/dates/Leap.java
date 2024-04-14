@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.dates;
 
 public class Leap {
   boolean isLeapYear(int year) {

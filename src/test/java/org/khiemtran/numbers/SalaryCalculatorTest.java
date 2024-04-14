@@ -1,6 +1,7 @@
-package org.khiemtran.basics;
+package org.khiemtran.numbers;
 
 import org.junit.jupiter.api.*;
+import org.khiemtran.numbers.SalaryCalculator;
 
 class SalaryCalculatorTest {
   private SalaryCalculator calculator;

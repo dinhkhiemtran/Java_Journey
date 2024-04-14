@@ -1,11 +1,11 @@
-package org.khiemtran.basics;
+package org.khiemtran.objects;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import org.khiemtran.objects.NeedForSpeed;
+import org.khiemtran.objects.RaceTrack;
 
 class RaceTrackTest {
   @Test

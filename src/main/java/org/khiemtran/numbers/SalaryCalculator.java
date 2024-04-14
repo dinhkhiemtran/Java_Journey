@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.numbers;
 
 public class SalaryCalculator {
   private static final double BASE_SALARY = 1000.00;

@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.objects;
 
 public class NeedForSpeed {
   private int speed;

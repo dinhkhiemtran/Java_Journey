@@ -1,8 +1,9 @@
-package org.khiemtran.basics;
+package org.khiemtran.strings;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.khiemtran.strings.Twofer;
 
 class TwoferTest {
   private Twofer twofer;

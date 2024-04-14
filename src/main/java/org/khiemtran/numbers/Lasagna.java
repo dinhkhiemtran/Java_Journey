@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.numbers;
 
 public class Lasagna {
   private final static int OVEN_TIME = 40;

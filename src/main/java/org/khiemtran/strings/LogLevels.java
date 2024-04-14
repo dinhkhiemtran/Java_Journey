@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.strings;
 
 public class LogLevels {
   public static String message(String logLine) {

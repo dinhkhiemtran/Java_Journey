@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.strings;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
