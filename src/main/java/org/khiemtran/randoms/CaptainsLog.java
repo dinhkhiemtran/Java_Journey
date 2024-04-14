@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.randoms;
 
 import java.util.Random;
 

@@ -1,7 +1,8 @@
-package org.khiemtran.basics;
+package org.khiemtran.randoms;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.khiemtran.randoms.CaptainsLog;
 
 import java.util.Random;
 import java.util.stream.Stream;
