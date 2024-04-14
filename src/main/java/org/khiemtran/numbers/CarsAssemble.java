@@ -1,4 +1,4 @@
-package org.khiemtran.basics;
+package org.khiemtran.numbers;
 
 public class CarsAssemble {
   private static final int NUMBER_IN_HOURS = 221;
