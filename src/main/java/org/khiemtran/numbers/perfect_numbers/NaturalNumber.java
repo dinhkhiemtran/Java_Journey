@@ -1,9 +1,9 @@
-package org.khiemtran.randoms.perfect_numbers;
+package org.khiemtran.numbers.perfect_numbers;
 
 import java.util.stream.IntStream;
 
 public class NaturalNumber {
-  private int number;
+  private final int number;
 
   NaturalNumber(int number) {
     if (number < 1) {
@@ -12,7 +12,7 @@ public class NaturalNumber {
     this.number = number;
   }
 
-  Classification getClassification() {
+  public Classification getClassification() {
     int sum = getSum();
     if (sum < this.number) return Classification.DEFICIENT;
     if (sum > this.number) return Classification.ABUNDANT;

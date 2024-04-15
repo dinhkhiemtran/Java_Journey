@@ -1,4 +1,4 @@
-package org.khiemtran.randoms.perfect_numbers;
+package org.khiemtran.numbers.perfect_numbers;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
