@@ -1,10 +1,10 @@
-package org.khiemtran.strings;
+package org.khiemtran.switches;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import org.khiemtran.strings.SqueakyClean;
+import org.khiemtran.switches.SqueakyClean;
 
 class SqueakyCleanTest {
   @Test

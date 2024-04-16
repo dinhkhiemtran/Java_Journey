@@ -1,4 +1,4 @@
-package org.khiemtran.strings;
+package org.khiemtran.switches;
 
 public class SqueakyClean {
   public String clean(String identifier) {
