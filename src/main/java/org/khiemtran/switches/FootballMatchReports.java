@@ -1,4 +1,4 @@
-package org.khiemtran.strings;
+package org.khiemtran.switches;
 
 public class FootballMatchReports {
   public static String onField(int shirtNum) {
