@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import org.khiemtran.strings.ElonsToyCar;
 
 class ElonsToyCarTest {
   private ElonsToyCar car;
@@ -41,8 +40,6 @@ class ElonsToyCarTest {
     for (int i = 1; i <= 100; i++) {
       car.drive();
     }
-    System.out.println(car.distanceDisplay());
-    System.out.println(car.batteryDisplay());
     Assertions.assertEquals("Driven 2000 meters", car.distanceDisplay());
     Assertions.assertEquals("Battery empty", car.batteryDisplay());
   }
@@ -60,7 +57,6 @@ class ElonsToyCarTest {
   @DisplayName("The static buy method returns each time a new remote controlled car instance")
   public void buy_new_car_returns_new_car_each_time() {
     ElonsToyCar car1 = ElonsToyCar.buy();
-    ElonsToyCar car2 = ElonsToyCar.buy();
     Assertions.assertNotEquals(car1, car);
   }
 
@@ -131,7 +127,7 @@ class ElonsToyCarTest {
     }
     // Attempt to drive one more time (should not work)
     car.drive();
-    Assertions.assertEquals("Battery empty",car.batteryDisplay());
+    Assertions.assertEquals("Battery empty", car.batteryDisplay());
   }
 
   @Test
